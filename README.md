@@ -73,7 +73,6 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](L
 Para mais informações ou sugestões:
 
 - Nome: André
-- E-mail: andre@example.com
 - GitHub: [Andre-StudioNerd](https://github.com/Andre-StudioNerd)
 
 ---
