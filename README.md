@@ -1,46 +1,81 @@
-# Getting Started with Create React App
+# Event Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Badge de Versão](https://img.shields.io/badge/vers%C3%A3o-1.0.0-blue)
+![Badge de Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-green)
 
-## Available Scripts
+## Descrição
 
-In the project directory, you can run:
+O **Event Tracker** é uma aplicação de calendário desenvolvida com React e Recoil que permite aos usuários gerenciar e acompanhar eventos de forma eficiente. A aplicação oferece uma interface intuitiva para a criação, edição e visualização de eventos, facilitando o planejamento e a organização pessoal.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Adição de novos eventos com título, descrição, data e horário.
+- Edição e exclusão de eventos existentes.
+- Visualização mensal e semanal dos eventos.
+- Notificações de lembrete para eventos futuros.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
+- [React](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces de usuário.
+- [Recoil](https://recoiljs.org/) - Gerenciamento de estado para React.
+- [Create React App](https://create-react-app.dev/) - Ferramenta para inicializar projetos React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalação
 
-### `npm run build`
+Para executar o **Event Tracker** localmente, siga os passos abaixo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone o repositório:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/Andre-StudioNerd/Event_tracker.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navegue até o diretório do projeto:
 
-### `npm run eject`
+   ```bash
+   cd Event_tracker
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Instale as dependências:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Inicie a aplicação:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+A aplicação estará disponível em `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Testes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para executar os testes automatizados, utilize o comando:
+
+```bash
+npm test
+```
+
+Este comando iniciará o executor de testes no modo interativo.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests. Por favor, siga as diretrizes de contribuição estabelecidas no repositório.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
+
+## Contato
+
+Para mais informações ou sugestões:
+
+- Nome: André
+- E-mail: andre@example.com
+- GitHub: [Andre-StudioNerd](https://github.com/Andre-StudioNerd)
+
+---
+
+*Este README foi elaborado seguindo as [boas práticas recomendadas](https://docs.github.com/pt/repositories/creating-and-managing-repositories/best-practices-for-repositories) para documentação de projetos no GitHub.*
